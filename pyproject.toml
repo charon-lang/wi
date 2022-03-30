@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "wi"
+version = "0.1.0"
+description = "A project manager for the W programming language"
+authors = ["James Butcher <jamesbutcher167@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+wcore-py = "^0.4.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
