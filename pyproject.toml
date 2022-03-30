@@ -2,7 +2,7 @@
 name = "wi"
 version = "0.1.0"
 description = "A project manager for the W programming language"
-authors = ["James Butcher <jamesbutcher167@gmail.com>"]
+authors = ["James Butcher <jamesbutcher@duck.com>"]
 license = "MIT"
 
 [tool.poetry.dependencies]
