@@ -1,0 +1,50 @@
+[[package]]
+name = "click"
+version = "8.1.0"
+description = "Composable command line interface toolkit"
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[package.dependencies]
+colorama = {version = "*", markers = "platform_system == \"Windows\""}
+
+[[package]]
+name = "colorama"
+version = "0.4.4"
+description = "Cross-platform colored terminal text."
+category = "main"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
+
+[[package]]
+name = "wcore-py"
+version = "0.4.0"
+description = ""
+category = "main"
+optional = false
+python-versions = "*"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.10"
+content-hash = "6de79e2b502b3941a53ab253ac07edb9bfc032d713098d4138d46f8be2df2112"
+
+[metadata.files]
+click = [
+    {file = "click-8.1.0-py3-none-any.whl", hash = "sha256:19a4baa64da924c5e0cd889aba8e947f280309f1a2ce0947a3e3a7bcb7cc72d6"},
+    {file = "click-8.1.0.tar.gz", hash = "sha256:977c213473c7665d3aa092b41ff12063227751c41d7b17165013e10069cc5cd2"},
+]
+colorama = [
+    {file = "colorama-0.4.4-py2.py3-none-any.whl", hash = "sha256:9f47eda37229f68eee03b24b9748937c7dc3868f906e8ba69fbcbdd3bc5dc3e2"},
+    {file = "colorama-0.4.4.tar.gz", hash = "sha256:5941b2b48a20143d2267e95b1c2a7603ce057ee39fd88e7329b0c292aa16869b"},
+]
+wcore-py = [
+    {file = "wcore_py-0.4.0-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.whl", hash = "sha256:366b5fefced86d70d49d84b230349d242fecc6375afefea3adc0d99a2d86644d"},
+    {file = "wcore_py-0.4.0-cp36-cp36m-manylinux_2_5_x86_64.manylinux1_x86_64.whl", hash = "sha256:04401ca749dedb97536c50403fdb39d506d25c6b5767bf6f9c0a8d9e5721b13a"},
+    {file = "wcore_py-0.4.0-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.whl", hash = "sha256:2ae61038103f1026479d028f11b3350cae713e47ee8b1426ad55621960b38f56"},
+    {file = "wcore_py-0.4.0-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.whl", hash = "sha256:a528ee9ec4ff99a79c938f3148367d305dc9832450e3b2230ea63f14c8dc675e"},
+    {file = "wcore_py-0.4.0-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.whl", hash = "sha256:148e952a975ccb797f2688aa344fc0c789ca32015a66aa62dcd6a2485333f76e"},
+    {file = "wcore_py-0.4.0-pp37-pypy37_pp73-manylinux_2_5_x86_64.manylinux1_x86_64.whl", hash = "sha256:762551848c1840d30e9c7b9856baca58728e856fc13289b7e8497cd4e9840395"},
+    {file = "wcore_py-0.4.0.tar.gz", hash = "sha256:368caab6903143a89d04811eb145b081a5d1868930ed53455b72b2e8810ccc1c"},
+]
