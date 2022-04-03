@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "wi"
+name = "wlang-cli"
 version = "0.1.2"
 description = "A project manager for the W programming language"
 authors = ["James Butcher <jamesbutcher@duck.com>"]
@@ -7,7 +7,7 @@ license = "MIT"
 
 [tool.poetry.dependencies]
 python = "^3.10"
-wcore-py = "^0.4.0"
+wcore-py = "^0.4.4"
 click = "^8.1.0"
 
 [tool.poetry.dev-dependencies]
