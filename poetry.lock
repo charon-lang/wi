@@ -19,8 +19,8 @@ python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
 
 [[package]]
 name = "wcore-py"
-version = "0.4.0"
-description = ""
+version = "0.4.4"
+description = "Python bindings for the W programming language"
 category = "main"
 optional = false
 python-versions = "*"
@@ -28,7 +28,7 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "6de79e2b502b3941a53ab253ac07edb9bfc032d713098d4138d46f8be2df2112"
+content-hash = "0d7be7c66b9d66bd365768b3bfc3043816093d9ec9fe110867bd2119745ee17c"
 
 [metadata.files]
 click = [
@@ -40,11 +40,20 @@ colorama = [
     {file = "colorama-0.4.4.tar.gz", hash = "sha256:5941b2b48a20143d2267e95b1c2a7603ce057ee39fd88e7329b0c292aa16869b"},
 ]
 wcore-py = [
-    {file = "wcore_py-0.4.0-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.whl", hash = "sha256:366b5fefced86d70d49d84b230349d242fecc6375afefea3adc0d99a2d86644d"},
-    {file = "wcore_py-0.4.0-cp36-cp36m-manylinux_2_5_x86_64.manylinux1_x86_64.whl", hash = "sha256:04401ca749dedb97536c50403fdb39d506d25c6b5767bf6f9c0a8d9e5721b13a"},
-    {file = "wcore_py-0.4.0-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.whl", hash = "sha256:2ae61038103f1026479d028f11b3350cae713e47ee8b1426ad55621960b38f56"},
-    {file = "wcore_py-0.4.0-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.whl", hash = "sha256:a528ee9ec4ff99a79c938f3148367d305dc9832450e3b2230ea63f14c8dc675e"},
-    {file = "wcore_py-0.4.0-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.whl", hash = "sha256:148e952a975ccb797f2688aa344fc0c789ca32015a66aa62dcd6a2485333f76e"},
-    {file = "wcore_py-0.4.0-pp37-pypy37_pp73-manylinux_2_5_x86_64.manylinux1_x86_64.whl", hash = "sha256:762551848c1840d30e9c7b9856baca58728e856fc13289b7e8497cd4e9840395"},
-    {file = "wcore_py-0.4.0.tar.gz", hash = "sha256:368caab6903143a89d04811eb145b081a5d1868930ed53455b72b2e8810ccc1c"},
+    {file = "wcore_py-0.4.4-cp310-cp310-macosx_10_7_x86_64.whl", hash = "sha256:bc53fd4774680b59d6d596621136a236a4bab584cf12e86f99edd0870376f78f"},
+    {file = "wcore_py-0.4.4-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.whl", hash = "sha256:a5034e1315ab69e142e892a962809dc14661db6ee30bd9dca65a0abbd21782cd"},
+    {file = "wcore_py-0.4.4-cp310-none-win_amd64.whl", hash = "sha256:68e57c15552d95af42d05fa5066a9ff04002c7221446b028181ca39c706b49cf"},
+    {file = "wcore_py-0.4.4-cp36-cp36m-macosx_10_7_x86_64.whl", hash = "sha256:00df7660da6a9d514a7789ccf08fbdeccf5dd71d1fe20a7d44cf4a587a7fbfc1"},
+    {file = "wcore_py-0.4.4-cp36-cp36m-manylinux_2_5_x86_64.manylinux1_x86_64.whl", hash = "sha256:0a13757c28efb7258d1c35ac6154b6b77f7ae0e0b952884495601660c07a6cad"},
+    {file = "wcore_py-0.4.4-cp36-none-win_amd64.whl", hash = "sha256:738c00ecd29765906570e14166d4a7a4660ed56ef4a2a9cca6d389784fe7a929"},
+    {file = "wcore_py-0.4.4-cp37-cp37m-macosx_10_7_x86_64.whl", hash = "sha256:ec8f1eff77a3b2341dbd5fb8ad5833def38a8838c73711de3627eff3e2e5e021"},
+    {file = "wcore_py-0.4.4-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.whl", hash = "sha256:5e494602b3bddea9f1a62266c787ce774f8bbf86dae4e13fcd12e485548ce12a"},
+    {file = "wcore_py-0.4.4-cp37-none-win_amd64.whl", hash = "sha256:f6d5dd1d042390e50fc4ba2bf8c9d310e99c4883a18ee4d5ce2eabc9a6779dfe"},
+    {file = "wcore_py-0.4.4-cp38-cp38-macosx_10_7_x86_64.whl", hash = "sha256:c7c824f8c353ee49ab22244f1a22b3e42dd25f0db127b6691ab4dbbe18271b6b"},
+    {file = "wcore_py-0.4.4-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.whl", hash = "sha256:c3f3228f46b859cd53b0315fe8e1e968461d00d72e3610dc75b0e87b84a1f465"},
+    {file = "wcore_py-0.4.4-cp38-none-win_amd64.whl", hash = "sha256:dc52b454c5ec210e43cc2d7e212883a3b648bd65f12fca521acda71cda48e0c5"},
+    {file = "wcore_py-0.4.4-cp39-cp39-macosx_10_7_x86_64.whl", hash = "sha256:6b3ed45ad8286ba4e5730b18b2815e047948a278116e202d4211d7381435e651"},
+    {file = "wcore_py-0.4.4-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.whl", hash = "sha256:e7565e5146c54db581976a778c5aadf507365dc3629472c22fe1ae3e631f679c"},
+    {file = "wcore_py-0.4.4-cp39-none-win_amd64.whl", hash = "sha256:e5bf86b15d8abffec257cd3a821d198570bea46c870adfc7207e3df70b4a337d"},
+    {file = "wcore_py-0.4.4-pp37-pypy37_pp73-manylinux_2_5_x86_64.manylinux1_x86_64.whl", hash = "sha256:bcf3692756b5dfebe1aa5becde157b21d2eff58e8b63221a5ff56b9b4da3b329"},
 ]

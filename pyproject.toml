@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "wlang-cli"
 version = "0.1.2"
-description = "A project manager for the W programming language"
+description = "A cli for the W programming language"
 authors = ["James Butcher <jamesbutcher@duck.com>"]
 license = "MIT"
 
