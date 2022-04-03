@@ -3,10 +3,6 @@ import click
 from pathlib import Path
 
 
-def get_next_input():
-    return f"{input('>>> ')}\n" + "\n".join(iter(lambda: input("... ").strip(), ""))
-
-
 @click.group()
 def cli():
     pass
@@ -25,7 +21,11 @@ def run(path: str) -> None:
 def shell() -> None:
     state = wcore_py.State()
 
-    while (code_block := get_next_input()) != "exit":
+    while (
+        code_block := input(">>> ")
+        + "\n"
+        + "\n".join(iter(lambda: input("... ").strip(), ""))
+    ):
         state.apply(code_block)
 
 
